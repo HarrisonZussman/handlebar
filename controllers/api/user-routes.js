@@ -85,12 +85,14 @@ router.post('/login', (req, res) => {
             }
         })
         .then(databaseUserData => {
+
             if (!databaseUserData) {
                 res.status(400).json({
                     message: 'No user with that username!'
                 });
                 return;
             }
+
 
             req.session.save(() => {
                 req.session.user_id = databaseUserData.id;
