@@ -4,10 +4,10 @@
 
 body,
 html {
-    height: 100%;
-    padding: 1%;
-    margin: 1%;
     font-family: sans-serif;
+    height: 100%;
+    margin: 1%;
+    padding: 1%;
     color: #323131;
 }
 
@@ -28,20 +28,20 @@ a:hover,
 }
 
 a {
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
     transition: color .1s;
 }
 
 button {
     background-color: #1f599f;
-    border: 1%;
-    padding: 1%;
     color: rgba(255, 255, 255, 0.968);
+    padding: 1%;
+    border: 1%;
+    border-radius: 5px;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 button:hover {
@@ -49,9 +49,9 @@ button:hover {
 }
 
 .post-list {
-    margin: 1%;
-    padding: 1%;
     list-style-type: none;
+    padding: 1%;
+    margin: 1%;
 }
 
 .go-back {
@@ -60,20 +60,20 @@ button:hover {
 
 textarea,
 input {
-    padding: 1%;
-    border-radius: 6px;
     border: 1px solid #d8d7d7;
+    border-radius: 6px;
+    padding: 1%;
 }
 
 textarea:focus,
 input:focus {
-    outline: none;
     border: 1px solid #3788eb;
+    outline: none;
 }
 
 textarea {
-    min-width: 45%;
     min-height: 105px;
+    min-width: 45%;
 }
 
 form>div {
@@ -86,17 +86,17 @@ form label {
 
 .wrapper {
     width: 100%;
-    min-height: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
+    min-height: 100%;
     flex-direction: column;
+    display: flex;
+    margin: 0 auto;
 }
 
 .info-section {
-    padding: 6px 11px;
-    display: flex;
     justify-content: space-between;
+    display: flex;
+    padding: 6px 11px;
 }
 
 header,
@@ -110,8 +110,8 @@ header,
 .sign-in-page,
 .new-form-page,
 .edit-form-page {
-    border: 3px solid rgb(0, 0, 0);
     padding-bottom: 10px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .form-heading {
@@ -132,10 +132,10 @@ header,
 }
 
 header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    display: flex;
 }
 
 header h1 {
@@ -143,32 +143,32 @@ header h1 {
 }
 
 .site-row {
-    display: flex;
-    border-bottom: 2px solid #c8c5c5;
     justify-content: center;
+    border-bottom: 2px solid #c8c5c5;
+    display: flex;
 }
 
 .site-name {
     margin-bottom: 10px;
-    padding: 1px 10px;
     border-style: double;
+    padding: 1px 10px;
 }
 
 main {
-    flex: 1;
     padding: 2.5% 4.5%;
+    flex: 1;
 }
 
 .btn-no-style {
-    background: none;
     border: none;
-    padding: 0;
+    background: none;
     cursor: pointer;
-    text-decoration: none;
+    padding: 0;
     font-size: 100%;
+    text-decoration: none;
     font-weight: bold;
-    transition: color .1s;
     margin-left: 15px;
+    transition: color .1s;
 }
 
 .btn-no-style:hover {
@@ -184,21 +184,21 @@ main {
 }
 
 .post {
+    border: 2px solid rgb(8, 8, 8);
     margin-bottom: 1%;
     line-height: 151%;
-    border: 2px solid rgb(8, 8, 8);
 }
 
 .post .title span {
-    font-style: italic;
     font-size: 91%;
+    font-style: italic;
     color: #7a7878;
 }
 
 .edit-link {
+    color: #2f2508;
     display: block;
     margin: -1.5% 0 2% 0;
-    color: #2f2508;
 }
 
 .comment-form {
@@ -206,8 +206,8 @@ main {
 }
 
 .comment {
-    padding: 1.5%;
     margin-bottom: 1.5%;
+    padding: 1.5%;
 }
 
 .comment:nth-child(odd) {
@@ -215,8 +215,8 @@ main {
 }
 
 .comment .meta {
-    font-size: 95%;
     margin-bottom: 1.5%;
+    font-size: 95%;
     opacity: .6;
 }
 
@@ -229,13 +229,13 @@ main {
 }
 
 #comment-subtitle {
-    font-size: 12px;
     font-style: italic;
+    font-size: 12px;
 }
 
 .new-post-section {
-    display: flex;
     justify-content: center;
+    display: flex;
 }
 
 #create-new-post {
